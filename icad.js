@@ -5,7 +5,7 @@ window.onload = async () => {
     await window.keplr.experimentalSuggestChain({
     chainId: "kqcosmos-1",
     chainName: "ICAD",
-    rpc: "http://162.55.235.69:2865", // replace with your rpc url
+    rpc: "http://162.55.235.69:28657", // replace with your rpc url
     rest: "http://162.55.235.69:1387", // replace with your rest api url
     bip44: {
         coinType: 118,
